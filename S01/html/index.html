@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header_top">
+            <ul class="address_contacts">
+                <li>
+                    <img src="" alt="map" />
+                    <span>123 Automotive District</span>
+                </li>
+                <li>
+                    <img src="" alt="call" />
+                    <span>+123-456-7890</span>
+                </li>
+                <li>
+                    <img src="" alt="email" />
+                    <span>info@example.com</span>
+                </li>
+            </ul>
+            <ul class="social_contacts">
+                <li>
+                    <a href=""><img src="" alt="" /></a>
+                </li>
+                <li>
+                    <a href=""><img src="" alt="" /></a>
+                </li>
+                <li>
+                    <a href=""><img src="" alt="" /></a>
+                </li>
+                <li>
+                    <a href=""><img src="" alt="" /></a>
+                </li>
+            </ul>
+            <div class="drop_button">
+                <button type="button"></button>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <h1 class="primecar_wrap">
+                <a href="#"><img src="#" alt="prime_cars" /></a>
+            </h1>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <div class="nav_btn">
+                            <a href="#">Home</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav_btn">
+                            <a href="#">About</a>
+                        </div>
+                        <ul class="submenu_1">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Team Single</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Faqs</a></li>
+                            <li><a href="#">Awards</a></li>
+                            <li><a href="#">Partners</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="nav_btn">
+                            <a href="#">Pages</a>
+                        </div>
+                        <ul class="submenu_1">
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Event</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Company Policy</a></li>
+                            <li><a href="#">Calculator</a></li>
+                            <li><a href="#">Work Process</a></li>
+                            <li><a href="#">Support Center</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Cars</a></li>
+                    <li><a href="#">Dealer</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="icon-container">
+                    <img src="#" alt="" />
+                    <a href="#">GET A QUOTE</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+
+        });
+    </script>
+</body>
+
+</html>
